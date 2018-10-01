@@ -22,7 +22,6 @@ secrets[process.env.GITHUB_REPO_OWNER]['polkadot'] = process.env.HUB_SECRET
 
 # domain url
 domain = process.env.DOMAIN
-domain = 'https://' + hostname + '.cla.parity.io'
 console.log('Serving Github Repos: ', process.env.GITHUB_REPO_OWNER)
 console.log('Domain is: ', domain)
 
